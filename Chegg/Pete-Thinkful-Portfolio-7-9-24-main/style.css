@@ -1,0 +1,134 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+.about-section, .about-text {flex: 1;}
+
+.about-section {
+  display: flex; /* Apply flexbox to the container */
+  align-items: center; /* Vertically center the items */
+}
+
+.about-section img {
+  margin-right: 75px; /* Add space between the image and text */
+}
+
+.image-circle {
+  border-radius: 50%; /* Make the image round */
+  border: 2px solid #003049; /* Add a border to the image */
+}
+
+.about-text h2 {
+  text-align: center; /* Center the heading text */
+}
+
+.about-text p {
+  text-align: left; /* Left align the paragraph text */
+}
+
+.about-text ul {
+  text-align: left;
+}
+
+.portfolio {display: flex;
+justify-content: space-around;}
+
+/* Paragraphs */
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+.header-container  
+{ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.logo, .title, .nav-bar {
+  flex: 1; /* Ensures items can grow and take up space */
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar li {
+  align-items: center;
+  margin-left: 20px;
+}
